@@ -41,7 +41,7 @@ export const constantRoutes = [
     component: Layout,
     children: [{
       path: '',
-      name: 'home',
+      name: 'Questions',
       component: () => import('@/views/form')
     }]
   },
@@ -50,8 +50,8 @@ export const constantRoutes = [
     component: Layout,
     children: [{
       path: '',
-      name: 'home',
-      component: () => import('@/views/dashboard/index')
+      name: 'Home',
+      component: () => import('@/views/home/index')
     }]
   },
 

@@ -27,6 +27,7 @@ export default {
   width: 100%;
   position: relative;
   overflow: hidden;
+  background: #f4f5f5;
   .content{
     width: 1200px;
     margin: 0 auto;
